@@ -1,0 +1,7 @@
+TODO:
+----
+
+Before python file execution the following has to be done,
+
+1. Update the path of the Training CSV file
+2. Update the path of the Testing CSV file
