@@ -1,5 +1,0 @@
-TODO:
-----
-
-1. Update the location of the Training CSV file
-2. Update the location of the Testing CSV file
