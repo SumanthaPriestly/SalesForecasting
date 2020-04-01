@@ -119,8 +119,8 @@ def LSTM_Multivariate():
     pred = scaler.fit_transform(predictions)
 
     plt.figure(figsize=(10,6))
-    plt.plot(actual, color='blue', label='Actual ')
-    plt.plot(predictions , color='red', label='Predicted')
+    plt.plot(actual, color='blue', label='Actual Forecast')
+    plt.plot(predictions , color='red', label='Predicted Forecast')
     plt.title('Sales Forecasting')
     plt.xlabel('Forecast Horizons (Day)')
     plt.ylabel('Sales')
