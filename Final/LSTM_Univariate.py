@@ -111,8 +111,8 @@ def LSTM_Univariate():
 
 
     plt.figure(figsize=(10,6))
-    plt.plot(actual, color='blue', label='Actual Precipitation')
-    plt.plot(predictions , color='red', label='Predicted Precipitation')
+    plt.plot(actual, color='blue', label='Actual Forecast')
+    plt.plot(predictions , color='red', label='Predicted Forecast')
     plt.title('Sales Forecasting')
     plt.xlabel('Forecast Horizons (Day)')
     plt.ylabel('Sales')
